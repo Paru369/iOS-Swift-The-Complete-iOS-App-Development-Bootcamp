@@ -8,7 +8,7 @@ Couse resources: https://www.appbrewery.co/p/ios-course-resources/
 [x] Section 1: Getting Started with iOS Development and Swift 5<br>
 [x]  [Section 2:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section2/I%20am%20rick) Xcode Storyboards and Interface Builder <br>
 [x] [Section 3:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section3) Xcode Storyboard and Interface Builder Challenge<br>
-[ ] Swift Programming Basics - Collections, Constants & Variables<br>
+[x] [Section 4:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section4) Swift Programming Basics - Collections, Constants & Variables<br>
 [ ] Swift Programming Basics Challenge<br>
 [ ] Auto Layout and Responsive UIs<br>
 [ ] Using and Understanding Apple Documentation<br>
@@ -57,12 +57,12 @@ Couse resources: https://www.appbrewery.co/p/ios-course-resources/
 - Master app marketing so you can publish your apps and generate downloads<br>
 <br>
 
-## 📲 App created 
+## 📲 Apps for each section
 <p align="center">
 
  
-[Section 2:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section2/I%20am%20rick) $~~~~~~~~~~~~~~~~~~~$ [Section 3:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section3) $~~~~~~~~~~~~~~~~~~~$ [Section 2:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section2/I%20am%20rick)  $~~~~~~~~~~~~~~~~~~~$ [Section 2:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section2/I%20am%20rick) $~~~~~~~~~~~~~~~~~~~$ [Section 2:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section2/I%20am%20rick) $~~~~~~~~~~~~~~~~~~~$ [Section 2:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section2/I%20am%20rick) <br> 
-<img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section2/images/1.png">  <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section3/images/1.png?raw=true">   <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section2/images/1.png">  <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section2/images/1.png">  <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section2/images/1.png">  <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section2/images/1.png">
+[Section 2:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section2) $~~~~~~~~~~~~~~~~~~~$ [Section 3:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section3) $~~~~~~~~~~~~~~~~~~~$ [Section 4:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section4)  $~~~~~~~~~~~~~~~~~~~$ [Section 2:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section2/I%20am%20rick) $~~~~~~~~~~~~~~~~~~~$ [Section 2:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section2/I%20am%20rick) $~~~~~~~~~~~~~~~~~~~$ [Section 2:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section2/I%20am%20rick) <br> 
+<img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section2/images/1.png">  <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section3/images/1.png?raw=true">   <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section4/images/1.gif">  <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section2/images/1.png">  <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section2/images/1.png">  <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section2/images/1.png">
 <br>
 
  </p>
