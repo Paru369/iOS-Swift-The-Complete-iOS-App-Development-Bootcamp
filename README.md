@@ -58,9 +58,14 @@ Couse resources: https://www.appbrewery.co/p/ios-course-resources/
 <br>
 
 ## 📲 App created 
-<img align="center" width="200px" src="https://github.com/Paru369/App-Rick-And-Morty/blob/main/images/RMGif.gif"> <img align="center" width="200px" src="https://github.com/Paru369/App-Rick-And-Morty/blob/main/images/RM1.png"> 
+<p align="center">
+
+ 
+[Section 2:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section2/I%20am%20rick) $~~~~~~~~~~~~~~~~~~~$ [Section 2:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section2/I%20am%20rick) $~~~~~~~~~~~~~~~~~~~$ [Section 2:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section2/I%20am%20rick)  $~~~~~~~~~~~~~~~~~~~$ [Section 2:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section2/I%20am%20rick) $~~~~~~~~~~~~~~~~~~~$ [Section 2:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section2/I%20am%20rick) $~~~~~~~~~~~~~~~~~~~$ [Section 2:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section2/I%20am%20rick) <br> 
+<img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section2/images/1.png">  <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section2/images/1.png">   <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section2/images/1.png">  <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section2/images/1.png">  <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section2/images/1.png">  <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section2/images/1.png">
 <br>
 
+ </p>
 ## ☑️ Requirements
 
 - [XCode](https://developer.apple.com/xcode/)
