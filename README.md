@@ -5,8 +5,8 @@ Couse resources: https://www.appbrewery.co/p/ios-course-resources/
 
 
 ## ✅ Sections - Course Content
-[x] Getting Started with iOS Development and Swift 5<br>
-[ ] Xcode Storyboards and Interface Builder<br>
+[x] Section 1: Getting Started with iOS Development and Swift 5<br>
+[x]  [Section 2:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section2/I%20am%20rick) Xcode Storyboards and Interface Builder <br>
 [ ] Xcode Storyboard and Interface Builder Challenge<br>
 [ ] Swift Programming Basics - Collections, Constants & Variables<br>
 [ ] Swift Programming Basics Challenge<br>
