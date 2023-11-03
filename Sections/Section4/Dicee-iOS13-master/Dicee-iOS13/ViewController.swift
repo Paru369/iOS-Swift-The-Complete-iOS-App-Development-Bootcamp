@@ -27,9 +27,10 @@ class ViewController: UIViewController {
         
         let diceArray = [#imageLiteral(resourceName: "DiceOne"), #imageLiteral(resourceName: "DiceTwo"), #imageLiteral(resourceName: "DiceThree"), #imageLiteral(resourceName: "DiceFour"), #imageLiteral(resourceName: "DiceFive"), #imageLiteral(resourceName: "DiceSix")]
         
-        print("button got pressed")
+        
         leftDiceNumber = Int.random(in: 0..<6)
         rightDiceNumber = Int.random(in: 0..<6)
+        
         diceImageView1.image = diceArray[leftDiceNumber]
         
         diceImageView2.image = diceArray[rightDiceNumber]
