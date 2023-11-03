@@ -57,7 +57,7 @@ Couse resources: https://www.appbrewery.co/p/ios-course-resources/
 - Master app marketing so you can publish your apps and generate downloads<br>
 <br>
 
-## 📲 Images
+## 📲 App created 
 <img align="center" width="200px" src="https://github.com/Paru369/App-Rick-And-Morty/blob/main/images/RMGif.gif"> <img align="center" width="200px" src="https://github.com/Paru369/App-Rick-And-Morty/blob/main/images/RM1.png"> 
 <br>
 
