@@ -16,52 +16,28 @@ class ViewController: UIViewController {
     var player: AVAudioPlayer?
 
     func playSound(note: String) {
-        guard let path = Bundle.main.path(forResource: note, ofType:"wav") else {
-            return
-            
-        }
-        let url = URL(fileURLWithPath: path)
-
-        do {
-            player = try AVAudioPlayer(contentsOf: url)
-            player?.play()
-            
-        } catch let error {
-            print(error.localizedDescription)
-        }
+        let url = Bundle.main.url(forResource: note, withExtension: "wav")
+               player = try! AVAudioPlayer(contentsOf: url!)
+        player?.play()
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 
- 
-    @IBAction func keyCPressed(_ sender: UIButton) {
-        playSound(note: "C")
+    @IBAction func keyPressed(_ sender: UIButton) {
+        playSound(note: sender.currentTitle ?? "")
+        
+        sender.alpha = 0.5
+        
+        DispatchQueue.main.asyncAfter(deadline: .now()+0.2 ) {
+
+            sender.alpha = 1
+
+        }
     }
     
-    @IBAction func keyDPressed(_ sender: UIButton) {
-        playSound(note: "D")
-    }
-    
-    @IBAction func keyEPressed(_ sender: UIButton) {
-        playSound(note: "E")
-    }
-    
-    @IBAction func keyFPressed(_ sender: UIButton) {
-        playSound(note: "F")
-    }
-    
-    @IBAction func keyGPressed(_ sender: UIButton) {
-        playSound(note: "G")
-    }
-    
-    @IBAction func keyAPressed(_ sender: UIButton) {
-        playSound(note: "A")
-    }
-    
-    @IBAction func keyBPressed(_ sender: UIButton) {
-        playSound(note: "B")
-    }
+   
     
 }
 
