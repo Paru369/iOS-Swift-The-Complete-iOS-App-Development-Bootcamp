@@ -5,6 +5,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -121,6 +122,34 @@
                                     </stackView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nJN-th-c5K" userLabel="Timer View">
                                         <rect key="frame" x="0.0" y="585.33333333333337" width="390" height="253.66666666666663"/>
+                                        <subviews>
+                                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="S1G-yr-8qE">
+                                                <rect key="frame" x="0.0" y="108.66666666666663" width="390" height="6"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="5" id="1tA-Vq-wLO"/>
+                                                </constraints>
+                                                <color key="progressTintColor" red="0.16862745100000001" green="0.20392156859999999" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="trackTintColor" red="0.60677319770000004" green="0.1100205705" blue="0.1222436801" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </progressView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AzN-Bs-BtQ">
+                                                <rect key="frame" x="161" y="30" width="68" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="42" id="qhm-zN-prb"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="25"/>
+                                                <color key="textColor" systemColor="systemIndigoColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="S1G-yr-8qE" secondAttribute="trailing" id="AJI-L1-xce"/>
+                                            <constraint firstAttribute="trailing" secondItem="S1G-yr-8qE" secondAttribute="trailing" id="AoY-RL-oub"/>
+                                            <constraint firstItem="S1G-yr-8qE" firstAttribute="centerX" secondItem="AzN-Bs-BtQ" secondAttribute="centerX" id="EHd-An-BeT"/>
+                                            <constraint firstItem="AzN-Bs-BtQ" firstAttribute="top" secondItem="nJN-th-c5K" secondAttribute="top" constant="30" id="NC3-hc-Sr3"/>
+                                            <constraint firstItem="S1G-yr-8qE" firstAttribute="top" secondItem="AzN-Bs-BtQ" secondAttribute="bottom" constant="78.666666666666714" id="hDz-u3-Qgl"/>
+                                            <constraint firstItem="S1G-yr-8qE" firstAttribute="leading" secondItem="nJN-th-c5K" secondAttribute="leading" id="udY-Qi-1wd"/>
+                                            <constraint firstItem="S1G-yr-8qE" firstAttribute="leading" secondItem="nJN-th-c5K" secondAttribute="leading" id="yaB-EZ-ebp"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
                             </stackView>
@@ -135,17 +164,22 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="progressBar" destination="S1G-yr-8qE" id="oJT-2q-Luz"/>
+                        <outlet property="timerLabel" destination="AzN-Bs-BtQ" id="R4J-Zj-Y37"/>
                         <outlet property="titleLable" destination="XLm-5r-pSP" id="IrO-Qn-I8a"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+            <point key="canvasLocation" x="136.74418604651163" y="137.76824034334766"/>
         </scene>
     </scenes>
     <resources>
         <image name="hard_egg" width="287.66665649414062" height="366.33334350585938"/>
         <image name="medium_egg" width="288" height="363.33334350585938"/>
         <image name="soft_egg" width="287" height="365.33334350585938"/>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>
