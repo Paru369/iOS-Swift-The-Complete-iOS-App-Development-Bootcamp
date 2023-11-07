@@ -12,7 +12,7 @@ Couse resources: https://www.appbrewery.co/p/ios-course-resources/
 [x] [Section 5:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section5)Swift Programming Basics Challenge - MagicBall 8 <br>
 [x] [Section 6:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section6)Auto Layout and Responsive UIs<br>
 [x] [Section 7:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section7) Using and Understanding Apple Documentation<br>
-[ ] Intermediate Swift Programming - Control Flow and Optionals<br>
+[x] [Section 8:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section8)Intermediate Swift Programming - Control Flow and Optionals<br>
 [ ] iOS App Design Patterns and Code Structuring<br>
 [ ] iOS App Design Pattern Challenge<br>
 [ ] Advanced Swift Programming - Classes, Inheritance & Advanced Optionals <br>
@@ -75,7 +75,7 @@ Couse resources: https://www.appbrewery.co/p/ios-course-resources/
 [Section 9:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section9)  $~~~~~~~~~~~~~~~~~~~$ 
 [Section 10:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section10) $~~~~~~~~~~~~~~~~~~~$ 
 [Section 11:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section11)  <br> 
-<img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section7/image/1.gif">  <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section3/images/1.png?raw=true">   <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section4/images/1.gif">  <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section5/images/1.gif">  <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section6/image/1.gif"> 
+<img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section7/image/1.gif">  <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section8/image/1.gif?raw=true">   <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section4/images/1.gif">  <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section5/images/1.gif">  <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section6/image/1.gif"> 
 <br>
 <br>
 <br>
