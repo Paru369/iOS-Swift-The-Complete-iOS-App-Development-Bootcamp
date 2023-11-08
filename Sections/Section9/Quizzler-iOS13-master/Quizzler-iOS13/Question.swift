@@ -1,5 +1,5 @@
 //
-//  Questions.swift
+//  Question.swift
 //  Quizzler-iOS13
 //
 //  Created by Paulo Pinheiro on 11/8/23.
@@ -9,7 +9,12 @@
 import Foundation
 
 
-struct Questions {
+struct Question {
     let text: String
     let answer: String
+    
+    init(q:String, a: String) {
+        text = q
+        answer = a
+    }
 }
