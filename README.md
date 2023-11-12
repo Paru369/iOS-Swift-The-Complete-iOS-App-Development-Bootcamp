@@ -16,32 +16,32 @@ Couse resources: https://www.appbrewery.co/p/ios-course-resources/
 [x] [Section 9:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section9)iOS App Design Patterns and Code Structuring<br>
 [x] [Section 10:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section10)iOS App Design Pattern Challenge<br>
 [x] [Section 11:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section11)Advanced Swift Programming - Classes, Inheritance & Advanced Optionals <br>
-[ ] [Section 12:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section11)Advanced Swift Programming Challenge <br>
-[ ] [Section 13:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section11)Networking, JSON Parsing, APIs and Core Location <br>
-[ ] [Section 14:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section11)Networking and API Challenge<br>
-[ ] [Section 15:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section11)Firebase Cloud Firestore, TableViews and Cocoapod<br>
+[x] [Section 12:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section12)Advanced Swift Programming Challenge <br>
+[ ] [Section 13:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section13)Networking, JSON Parsing, APIs and Core Location <br>
+[ ] [Section 14:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section14)Networking and API Challenge<br>
+[ ] [Section 15:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section15)Firebase Cloud Firestore, TableViews and Cocoapod<br>
 [ ] Dependencies<br>
-[ ] [Section 16:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section11)The Command Line and Terminal<br>
-[ ] [Section 17:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section11)SwiftUl and Declarative Programming<br>
-[ ] [Section 18:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section11)Git, GitHub and Version Control<br>
-[ ] [Section 19:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section11)Local Data Persistance - User Defaults, Core Data and Realm<br>
-[ ] [Section 20:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section11)In-App Purchases and Apple StoreKit<br>
-[ ] [Section 21:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section11)Advanced Swift Classroom - Part 1<br>
-[ ] [Section 22:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section11)Advanced Swift Classroom - Part 2<br>
-[ ] [Section 23:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section11)CoreML and Machine Learning<br>
-[ ] [Section 24:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section11)Advanced CoreML - CoreML Tools & Converting Models<br>
-[ ] [Section  25:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section11)CreateML - Building Your Own Machine Learning Model from Scratch <br>
-[ ] [Section 26:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section11)CreateML & Natural Language Processing (NLP)  <br>
-[ ] [Section 27:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section11)ARKit & Augmented Reality Apps <br>
-[ ] [Section 28:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section11)Advanced ARKit <br>
-[ ] [Section 29:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section11)ARKit 2 and Live Tracking <br>
-[ ] [Section 30:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section11)ARKit 2 & Live Video <br>
-[ ] [Section 31:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section11)How to Submit Your App to the App Store <br>
-[ ] [Section 32:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section11)What's Next? How to Become a Pro iOS Developer <br>
-[ ] [Section 33:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section11)Optional: The Complete App Design Course <br>
-[ ] [Section 34:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section11)Optional: The Complete App Marketing Course <br>
-[ ] [Section 35:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section11)Ask Angela Anything <br>
-[ ] [Section 36:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section11)Optional Module: How to Make an App from Beginning to End <br>
+[ ] [Section 16:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section16)The Command Line and Terminal<br>
+[ ] [Section 17:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section17)SwiftUl and Declarative Programming<br>
+[ ] [Section 18:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section18)Git, GitHub and Version Control<br>
+[ ] [Section 19:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section19)Local Data Persistance - User Defaults, Core Data and Realm<br>
+[ ] [Section 20:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section20)In-App Purchases and Apple StoreKit<br>
+[ ] [Section 21:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section21)Advanced Swift Classroom - Part 1<br>
+[ ] [Section 22:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section22)Advanced Swift Classroom - Part 2<br>
+[ ] [Section 23:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section23)CoreML and Machine Learning<br>
+[ ] [Section 24:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section24)Advanced CoreML - CoreML Tools & Converting Models<br>
+[ ] [Section  25:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section25)CreateML - Building Your Own Machine Learning Model from Scratch <br>
+[ ] [Section 26:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section26)CreateML & Natural Language Processing (NLP)  <br>
+[ ] [Section 27:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section27)ARKit & Augmented Reality Apps <br>
+[ ] [Section 28:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section28)Advanced ARKit <br>
+[ ] [Section 29:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section29)ARKit 2 and Live Tracking <br>
+[ ] [Section 30:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section30)ARKit 2 & Live Video <br>
+[ ] [Section 31:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section31)How to Submit Your App to the App Store <br>
+[ ] [Section 32:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section32)What's Next? How to Become a Pro iOS Developer <br>
+[ ] [Section 33:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section33)Optional: The Complete App Design Course <br>
+[ ] [Section 34:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section34)Optional: The Complete App Marketing Course <br>
+[ ] [Section 35:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section35)Ask Angela Anything <br>
+[ ] [Section 36:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section36)Optional Module: How to Make an App from Beginning to End <br>
 
 <br>
 <br>
@@ -84,7 +84,7 @@ Couse resources: https://www.appbrewery.co/p/ios-course-resources/
 [Section 14:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section14)  $~~~~~~~~~~~~~~~~~~~$ 
 [Section 15:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section15) $~~~~~~~~~~~~~~~~~~~$ 
 [Section 16:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section16)  <br> 
-<img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Sectio12/image/1.git">  <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section13/image/1.git?raw=true">   <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section14/image/1.gif">  <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section15/image/1.gif">  <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section16/image/1.gif"> 
+<img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section12/image/1.gif">  <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section13/image/1.gif?raw=true">   <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section14/image/1.gif">  <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section15/image/1.gif">  <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section16/image/1.gif"> 
 <br>
 <br>
 <br>
