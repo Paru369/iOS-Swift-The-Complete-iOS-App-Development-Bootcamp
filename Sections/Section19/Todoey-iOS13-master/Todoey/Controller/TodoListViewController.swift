@@ -21,7 +21,6 @@ class TodoListViewController: UITableViewController {
     
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -62,14 +61,22 @@ class TodoListViewController: UITableViewController {
     
     //MARK: - Model Manipulation Methods
     
-    func loadItems(with request: NSFetchRequest<Item> = Item.fetchRequest() ) {
+    func loadItems(with request: NSFetchRequest<Item> = Item.fetchRequest(), predicate: NSPredicate? = nil ) {
 
+        let categoryPredicate = NSPredicate(format: "parentCategory.name MATCHES %@", selectedCategory!.name!)
         
+        if let addtionalPredicate = predicate {
+            request.predicate = NSCompoundPredicate(andPredicateWithSubpredicates: [categoryPredicate, addtionalPredicate])
+        } else {
+            request.predicate = categoryPredicate
+        }
+
         do {
             itemArray = try context.fetch(request)
         } catch {
             print("Error fetching data from context: \(error)")
         }
+        tableView.reloadData()
     }
        
     func saveItems() {
@@ -106,20 +113,20 @@ class TodoListViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        
-        context.delete(itemArray[indexPath.row])
-        itemArray.remove(at: indexPath.row)
-        
-        
-       let item = itemArray[indexPath.row]
-
-        item.done = !item.done
-
-        saveItems()
-        
-      
-            
-        tableView.deselectRow(at: indexPath, animated: true)
+//
+//        context.delete(itemArray[indexPath.row])
+//        itemArray.remove(at: indexPath.row)
+//
+//
+//       let item = itemArray[indexPath.row]
+//
+//        item.done = !item.done
+//
+//        saveItems()
+//
+//
+//
+//        tableView.deselectRow(at: indexPath, animated: true)
     }
     
    
@@ -132,11 +139,11 @@ extension TodoListViewController: UISearchBarDelegate {
         
         let request : NSFetchRequest<Item> = Item.fetchRequest()
        
-        request.predicate = NSPredicate(format: "title CONTAINS[cd] %@", searchBar.text!)
+        let predicate = NSPredicate(format: "title CONTAINS[cd] %@", searchBar.text!)
  
         request.sortDescriptors = [NSSortDescriptor(key: "title", ascending: true)]
-        
-        loadItems(with: request)
+        print(request)
+        loadItems(with: request, predicate: predicate)
 
     }
     
