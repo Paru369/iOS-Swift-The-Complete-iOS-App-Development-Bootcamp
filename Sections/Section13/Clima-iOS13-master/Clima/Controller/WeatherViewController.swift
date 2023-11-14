@@ -36,7 +36,7 @@ class WeatherViewController: UIViewController, UITextFieldDelegate {
     }
 
     func textFieldDidEndEditing(_ textField: UITextField) {
-        searchTextField = ""
+        searchTextField = "
     }
     
     override func viewDidLoad() {
