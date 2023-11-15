@@ -49,6 +49,10 @@ class WeatherViewController: UIViewController, UITextFieldDelegate, WeatherManag
         print(weather.temperatureString)
     }
     
+    func didFailWithError(error: Error) {
+        print(error)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         searchTextField.delegate = self
