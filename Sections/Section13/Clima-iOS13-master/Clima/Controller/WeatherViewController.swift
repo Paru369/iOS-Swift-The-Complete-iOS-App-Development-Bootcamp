@@ -93,8 +93,7 @@ extension WeatherViewController: CLLocationManagerDelegate {
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         print("got location")
-        print("Tete")
-        
+       
     }
     
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
