@@ -2,8 +2,8 @@
 //  CoinManager.swift
 //  ByteCoin
 //
-//  Created by Angela Yu on 11/09/2019.
-//  Copyright © 2019 The App Brewery. All rights reserved.
+//  Created by Paulo Pinheiro on 11/17/23.
+//  Copyright © 2023 The App Brewery. All rights reserved.
 //
 
 
@@ -42,7 +42,7 @@ struct CoinManager {
             let lastPrice = decodeData.rate
             return lastPrice
         } catch {
-            //delegate?.didFailWithError(self, error: error)
+            delegate?.didFailWithError(error: error)
             print(error)
             return nil
         }
@@ -59,7 +59,6 @@ struct CoinManager {
                 if let safeData = data {
                    
                     if let price = self.parseJson(safeData) {
-                        print("1---- \(price)")
                           self.delegate?.didUpdatePrice(self, price: price)
                     }
                 }
