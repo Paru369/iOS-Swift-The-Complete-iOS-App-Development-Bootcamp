@@ -6,9 +6,18 @@
 //  Copyright © 2019 The App Brewery. All rights reserved.
 //
 
+
 import Foundation
 
+protocol CoinManagerDelegate  {
+    func didUpdatePrice(_ coinManager: CoinManager, price: Double)
+    func didFailWithError(error: Error)
+}
+
+    
 struct CoinManager {
+    
+    var delegate: CoinManagerDelegate?
     
     let baseURL = "https://rest.coinapi.io/v1/exchangerate/BTC"
     let apiKey = "5A018DA0-9B26-4A5A-BAC1-326A2BDE596A"
@@ -18,7 +27,7 @@ struct CoinManager {
     func getCoinPrice(for currency: String) {
         let urlString = getURLString(currency: currency)
         let data = performRequest(with: urlString)
-        print(data)
+        
     }
     
     func getURLString(currency: String) -> String {
@@ -26,8 +35,17 @@ struct CoinManager {
         return URLString
     }
     
-    func parseJson(safeData: Data){
-        
+    func parseJson(_ data: Data) -> Double? {
+        let decoder = JSONDecoder()
+        do {
+            let decodeData = try decoder.decode(CoinData.self, from: data)
+            let lastPrice = decodeData.rate
+            return lastPrice
+        } catch {
+            //delegate?.didFailWithError(self, error: error)
+            print(error)
+            return nil
+        }
     }
     
     func performRequest(with urlString: String) {
@@ -39,11 +57,11 @@ struct CoinManager {
                     return
                 }
                 if let safeData = data {
-                    print( String(data: safeData, encoding: String.Encoding.utf8) ?? "deu ruim")
-                    return
-                    //  if let price = self.parseJason(safeData) {
-                     //   self.delegate?.didUpdatePrice(self, price: price)
-                    
+                   
+                    if let price = self.parseJson(safeData) {
+                        print("1---- \(price)")
+                          self.delegate?.didUpdatePrice(self, price: price)
+                    }
                 }
             }
             
