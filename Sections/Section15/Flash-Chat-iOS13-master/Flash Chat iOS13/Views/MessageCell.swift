@@ -24,7 +24,11 @@ class MessageCell: UITableViewCell {
     @IBOutlet weak var label: UILabel!
  
     
-    @IBOutlet weak var avatarImage: UIImageView!
+
+    
+    @IBOutlet weak var leftImageView: UIImageView!
+    
+    @IBOutlet weak var rightIamgeVire: UIImageView!
     
     
     override func setSelected(_ selected: Bool, animated: Bool) {
