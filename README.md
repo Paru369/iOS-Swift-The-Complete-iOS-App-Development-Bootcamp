@@ -18,8 +18,8 @@ Couse resources: https://www.appbrewery.co/p/ios-course-resources/
 [x] [Section 11:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section11)Advanced Swift Programming - Classes, Inheritance & Advanced Optionals <br>
 [x] [Section 12:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section12)Advanced Swift Programming Challenge <br>
 [x] [Section 13:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section13)Networking, JSON Parsing, APIs and Core Location <br>
-[ ] [Section 14:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section14)Networking and API Challenge<br>
-[ ] [Section 15:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section15)Firebase Cloud Firestore, TableViews and Cocoapod<br>
+[x] [Section 14:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section14)Networking and API Challenge<br>
+[x] [Section 15:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section15)Firebase Cloud Firestore, TableViews and Cocoapod<br>
 [ ] Dependencies<br>
 [ ] [Section 16:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section16)The Command Line and Terminal<br>
 [ ] [Section 17:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section17)SwiftUl and Declarative Programming<br>
