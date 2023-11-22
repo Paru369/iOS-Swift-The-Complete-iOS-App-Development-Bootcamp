@@ -82,7 +82,7 @@ Couse resources: https://www.appbrewery.co/p/ios-course-resources/
 [Section 13:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section13) $~~~~~~~~~~~~~~~~~$
 [Section 14:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section14) $~~~~~~~~~~~~~~~~~$
 [Section 15:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section15) $~~~~~~~~~~~~~~~~~$
-[Section 16:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section16)  <br> 
+[Section 17:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section16)  <br> 
 <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section12/image/1.gif">  <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section13/image/1.gif?raw=true">   <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section14/image/1.gif">  <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section15/image/1.gif">  <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section16/image/1.gif"> 
 <br>
 <br>
