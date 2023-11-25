@@ -21,7 +21,7 @@ Couse resources: https://www.appbrewery.co/p/ios-course-resources/
 [x] [Section 14:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section14)Networking and API Challenge<br>
 [x] [Section 15:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section15)Firebase Cloud Firestore, TableViews and Cocoapod dependencies<br>
 [x] [Section 16:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section16)The Command Line and Terminal<br>
-[ ] [Section 17:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section17)SwiftUl and Declarative Programming<br>
+[x] [Section 17:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section17)SwiftUl and Declarative Programming<br>
 [ ] [Section 18:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section18)Git, GitHub and Version Control<br>
 [ ] [Section 19:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section19)Local Data Persistance - User Defaults, Core Data and Realm<br>
 [ ] [Section 20:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section20)In-App Purchases and Apple StoreKit<br>
@@ -82,8 +82,8 @@ Couse resources: https://www.appbrewery.co/p/ios-course-resources/
 [Section 13:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section13) $~~~~~~~~~~~~~~~~~$
 [Section 14:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section14) $~~~~~~~~~~~~~~~~~$
 [Section 15:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section15) $~~~~~~~~~~~~~~~~~$
-[Section 17:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section16)  <br> 
-<img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section12/image/1.gif">  <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section13/image/1.gif?raw=true">   <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section14/image/1.gif">  <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section15/image/1.gif">  <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section16/image/1.gif"> 
+[Section 17:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section17)  <br> 
+<img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section12/image/1.gif">  <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section13/image/1.gif?raw=true">   <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section14/image/1.gif">  <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section15/image/1.gif">  <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section17/image/1.gif"> 
 <br>
 <br>
 <br>
