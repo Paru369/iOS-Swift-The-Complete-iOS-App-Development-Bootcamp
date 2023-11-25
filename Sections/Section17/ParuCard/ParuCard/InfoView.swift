@@ -19,6 +19,7 @@ struct InfoView: View {
                   HStack{ Image(systemName: imageName)
                           .foregroundColor(.blue)
                       Text(text)
+                          .foregroundColor(Color("Info Color"))
                   })
     }
 }
