@@ -22,7 +22,7 @@ Couse resources: https://www.appbrewery.co/p/ios-course-resources/
 [x] [Section 15:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section15)Firebase Cloud Firestore, TableViews and Cocoapod dependencies<br>
 [x] [Section 16:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section16)The Command Line and Terminal<br>
 [x] [Section 17:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section17)SwiftUl and Declarative Programming<br>
-[ ] [Section 18:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section18)Git, GitHub and Version Control<br>
+[x] [Section 18:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section18)Git, GitHub and Version Control<br>
 [ ] [Section 19:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section19)Local Data Persistance - User Defaults, Core Data and Realm<br>
 [ ] [Section 20:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section20)In-App Purchases and Apple StoreKit<br>
 [ ] [Section 21:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section21)Advanced Swift Classroom - Part 1<br>
