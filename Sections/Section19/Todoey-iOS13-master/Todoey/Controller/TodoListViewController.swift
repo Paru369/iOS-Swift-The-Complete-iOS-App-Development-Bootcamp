@@ -27,9 +27,9 @@ class TodoListViewController: UITableViewController {
         itemArray.append(newItem2)
         
         
-//        if let items =  defaults.array(forKey: "TodoListArray") as? [String] {
-//            itemArray = items
-//        }
+        if let items =  defaults.array(forKey: "TodoListArray") as? [Item] {
+            itemArray = items
+        }
     }
     
     @IBAction func addButtonPressed(_ sender: UIBarButtonItem) {
@@ -44,9 +44,10 @@ class TodoListViewController: UITableViewController {
                 let newItem = Item()
                 newItem.title = textField.text!
                 self.itemArray.append(newItem)
+                self.defaults.set(self.itemArray, forKey: "TodoListArray")
                 self.tableView.reloadData()
             }
-            self.defaults.set(self.itemArray, forKey: "TodoListArray")
+           
             
             print(self.itemArray)
         }
@@ -85,12 +86,8 @@ class TodoListViewController: UITableViewController {
         
         item.done = !item.done
         
-        if item.done == false {
-            tableView.cellForRow(at: indexPath)?.accessoryType = .none
-        } else {
-            tableView.cellForRow(at: indexPath)?.accessoryType = .checkmark
-        }
-        
+        (tableView.cellForRow(at: indexPath)?.accessoryType =  item.done ? .checkmark : .none)
+            
         tableView.deselectRow(at: indexPath, animated: true)
     }
     
