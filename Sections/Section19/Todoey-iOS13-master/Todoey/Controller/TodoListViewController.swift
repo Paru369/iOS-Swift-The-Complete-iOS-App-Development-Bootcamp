@@ -31,7 +31,7 @@ class TodoListViewController: UITableViewController {
         let newItem2 = Item()
         newItem2.title = "Teste new Item"
         itemArray.append(newItem2)
-        
+        loadItems()
         
 //        if let items =  defaults.array(forKey: "TodoListArray") as? [Item] {
 //            itemArray = items
@@ -67,7 +67,23 @@ class TodoListViewController: UITableViewController {
     }
     
     //MARK: - Model Manipulation Methods
-    
+    func loadItems() {
+        
+       
+     
+        
+        if let data = try? Data(contentsOf: dataFilePath!){
+            
+            let decoder = PropertyListDecoder()
+            do {
+                itemArray = try decoder.decode([Item].self, from: data )
+            } catch {
+                print("Error decoding: \(error)")
+            }
+            self.tableView.reloadData()
+        }
+    }
+       
     func saveItems() {
         let encoder = PropertyListEncoder()
         
