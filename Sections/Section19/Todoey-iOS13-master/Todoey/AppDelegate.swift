@@ -31,6 +31,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.saveContext()
     }
     
+    // MARK: - Core Data 
+    
     lazy var persistentContainer: NSPersistentContainer = {
           
             let container = NSPersistentContainer(name: "DataModel")
