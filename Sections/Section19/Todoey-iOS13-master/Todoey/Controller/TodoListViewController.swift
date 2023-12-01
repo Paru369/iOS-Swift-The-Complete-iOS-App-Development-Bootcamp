@@ -13,25 +13,20 @@ class TodoListViewController: UITableViewController {
 
     var itemArray = [Item]()
     
-    let dataFilePath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first?.appendingPathComponent("Item.plist")
-    
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-   
         
-       // print(dataFilePath)
-        
-        let newItem = Item()
-        newItem.title = "Find my key"
-        itemArray.append(newItem)
-        
-        let newItem2 = Item()
-        newItem2.title = "Teste new Item"
-        itemArray.append(newItem2)
+//        let newItem = Item()
+//        newItem.title = "Find my key"
+//        itemArray.append(newItem)
+//        
+//        let newItem2 = Item()
+//        newItem2.title = "Teste new Item"
+//        itemArray.append(newItem2)
        // loadItems()
         
 //        if let items =  defaults.array(forKey: "TodoListArray") as? [Item] {
@@ -52,6 +47,7 @@ class TodoListViewController: UITableViewController {
             if textField.text != "" {
                 let newItem = Item(context: self.context)
                 newItem.title = textField.text!
+                newItem.done = false
                 self.itemArray.append(newItem)
                 
                 self.saveItems()
