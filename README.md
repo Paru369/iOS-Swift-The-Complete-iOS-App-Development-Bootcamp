@@ -3,7 +3,6 @@ Complete iOS App Development Bootcamp by Dr. Angela Yu
 
 Couse resources: https://www.appbrewery.co/p/ios-course-resources/
 
-
 ## ✅ Sections - Course Content
 [x] Section 1: Getting Started with iOS Development and Swift 5<br>
 [x] [Section 2:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section2/I%20am%20rick) Xcode Storyboards and Interface Builder <br>
@@ -58,7 +57,6 @@ Couse resources: https://www.appbrewery.co/p/ios-course-resources/
 
 ## 📲 Apps for each section
 <p align="center">
-
  
 [Section 2:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section2) $~~~~~~~~~~~~~~~~~~~$ 
 [Section 3:](https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/tree/main/Sections/Section3) $~~~~~~~~~~~~~~~~~~~$ 
