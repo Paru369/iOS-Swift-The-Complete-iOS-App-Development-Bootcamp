@@ -93,7 +93,6 @@ Couse resources: https://www.appbrewery.co/p/ios-course-resources/
 <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section17/image/1.gif">  <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section18/image/1.gif?raw=true">   <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section19/image/1.gif">  <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section20/image/1.gif">  <img align="center" width="152px" src="https://github.com/Paru369/iOS-Swift-The-Complete-iOS-App-Development-Bootcamp/blob/main/Sections/Section21/image/1.gif"> 
 <br>
 <br>
-<br>
 
  </p>
 ## ☑️ Requirements
