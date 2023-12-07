@@ -1,6 +1,5 @@
 # iOS-Swift-The-Complete-iOS-App-Development-Bootcamp
 Complete iOS App Development Bootcamp by Dr. Angela Yu
-
 Couse resources: https://www.appbrewery.co/p/ios-course-resources/
 
 ## ✅ Sections - Course Content
