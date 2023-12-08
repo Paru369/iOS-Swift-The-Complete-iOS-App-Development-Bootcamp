@@ -107,10 +107,16 @@ class TodoListViewController: UITableViewController {
     //MARK: - Tableview Delegate Methods
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-       let item = itemArray[indexPath.row]
         
-        item.done = !item.done
         
+        context.delete(itemArray[indexPath.row])
+        itemArray.remove(at: indexPath.row)
+        
+        
+//       let item = itemArray[indexPath.row]
+//
+//        item.done = !item.done
+//
         saveItems()
         
       
