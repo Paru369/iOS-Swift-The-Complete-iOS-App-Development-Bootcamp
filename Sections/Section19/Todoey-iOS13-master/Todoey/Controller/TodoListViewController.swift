@@ -19,6 +19,8 @@ class TodoListViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        searchBar.delegate = self
+        
         loadItems()
         
 //        if let items =  defaults.array(forKey: "TodoListArray") as? [Item] {
@@ -84,9 +86,7 @@ class TodoListViewController: UITableViewController {
             self.tableView.reloadData()
     }
         
-
   
-    
     //MARK: - Tableview DataSource Methods
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -127,6 +127,16 @@ class TodoListViewController: UITableViewController {
    
 }
 
+//MARK: - Search bar methods
+extension TodoListViewController: UISearchBarDelegate {
+    
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        
+        let request : NSFetchRequest<Item> = Item.fetchRequest()
+    }
+    
+    
+}
 
 
 
