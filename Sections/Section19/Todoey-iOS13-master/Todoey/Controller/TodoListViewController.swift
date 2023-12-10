@@ -19,7 +19,7 @@ class TodoListViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        searchBar.delegate = self
+        
         
         loadItems()
         
@@ -64,9 +64,9 @@ class TodoListViewController: UITableViewController {
     
     
     
-    func loadItems() {
+    func loadItems(with request: NSFetchRequest<Item> = Item.fetchRequest() ) {
 
-        let request : NSFetchRequest<Item> = Item.fetchRequest()
+        
         do {
             itemArray = try context.fetch(request)
         } catch {
@@ -113,10 +113,10 @@ class TodoListViewController: UITableViewController {
         itemArray.remove(at: indexPath.row)
         
         
-//       let item = itemArray[indexPath.row]
-//
-//        item.done = !item.done
-//
+       let item = itemArray[indexPath.row]
+
+        item.done = !item.done
+
         saveItems()
         
       
@@ -133,6 +133,13 @@ extension TodoListViewController: UISearchBarDelegate {
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         
         let request : NSFetchRequest<Item> = Item.fetchRequest()
+       
+        request.predicate = NSPredicate(format: "title CONTAINS[cd] %@", searchBar.text!)
+ 
+        request.sortDescriptors = [NSSortDescriptor(key: "title", ascending: true)]
+        
+        loadItems(with: request)
+
     }
     
     
