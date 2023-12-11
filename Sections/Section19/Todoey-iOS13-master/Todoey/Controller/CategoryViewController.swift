@@ -67,8 +67,6 @@ class CategoryViewController: UITableViewController {
         present(alert, animated: true, completion: nil)
     }
     
-    
-    
     //MARK: - Model Manipulation Methods
     
     func loadCategories(with request: NSFetchRequest<Categori> = Categori.fetchRequest() ) {
