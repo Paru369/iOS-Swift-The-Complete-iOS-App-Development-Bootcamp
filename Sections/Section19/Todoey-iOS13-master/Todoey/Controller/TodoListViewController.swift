@@ -19,7 +19,7 @@ class TodoListViewController: UITableViewController {
         }
     }
     
-    let conte = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+    let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     
     
     override func viewDidLoad() {
