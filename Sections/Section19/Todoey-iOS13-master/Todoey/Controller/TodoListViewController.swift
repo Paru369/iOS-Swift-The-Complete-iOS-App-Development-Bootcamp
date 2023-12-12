@@ -21,12 +21,11 @@ class TodoListViewController: UITableViewController {
     
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
 
     }
+    
     
     @IBAction func addButtonPressed(_ sender: UIBarButtonItem) {
         
@@ -35,8 +34,6 @@ class TodoListViewController: UITableViewController {
         let alert = UIAlertController(title: "Add new ToDoEy item", message: "", preferredStyle: .alert)
         
         let action = UIAlertAction(title: "Add Item", style: .default) { (action) in
-            
-            
             
             if textField.text != "" {
                 let newItem = Item(context: self.context)
@@ -92,7 +89,6 @@ class TodoListViewController: UITableViewController {
             self.tableView.reloadData()
     }
         
-  
     //MARK: - Tableview DataSource Methods
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
