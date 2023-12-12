@@ -88,7 +88,9 @@ class CategoryViewController: UITableViewController {
             print("Error saving context, \(error)")
             
         }
+        
         self.tableView.reloadData()
+        
     }
     
     //MARK: - TableView Delegate Methods
