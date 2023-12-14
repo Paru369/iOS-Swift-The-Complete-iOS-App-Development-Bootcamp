@@ -1,23 +1,13 @@
-//
-//  CategoryViewController.swift
-//  Todoey
-//
-//  Created by Paulo Pinheiro on 12/10/23.
-//  Copyright © 2023 App Brewery. All rights reserved.
-//
+
 
 import UIKit
 import CoreData
 
 class CategoryViewController: UITableViewController {
     
-    
     var categoryArray = [Categori]()
     
-  
-    
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,14 +23,12 @@ class CategoryViewController: UITableViewController {
         
         cell.textLabel?.text = categoryArray[indexPath.row].name
         
-        
         return cell
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return categoryArray.count
     }
-    
     
     @IBAction func addButtonPressed(_ sender: UIBarButtonItem) {
         var textField = UITextField()
@@ -58,6 +46,9 @@ class CategoryViewController: UITableViewController {
             }
             
         }
+        
+        
+        
         
         alert.addTextField { (alertTextField) in
             alertTextField.placeholder = "Insert category name"
