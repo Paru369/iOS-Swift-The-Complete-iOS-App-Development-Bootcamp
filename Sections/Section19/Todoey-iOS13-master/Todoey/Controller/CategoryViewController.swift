@@ -9,7 +9,6 @@ class CategoryViewController: UITableViewController {
     
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -24,14 +23,12 @@ class CategoryViewController: UITableViewController {
         
         cell.textLabel?.text = categoryArray[indexPath.row].name
         
-        
         return cell
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return categoryArray.count
     }
-    
     
     @IBAction func addButtonPressed(_ sender: UIBarButtonItem) {
         var textField = UITextField()
@@ -49,6 +46,9 @@ class CategoryViewController: UITableViewController {
             }
             
         }
+        
+        
+        
         
         alert.addTextField { (alertTextField) in
             alertTextField.placeholder = "Insert category name"
