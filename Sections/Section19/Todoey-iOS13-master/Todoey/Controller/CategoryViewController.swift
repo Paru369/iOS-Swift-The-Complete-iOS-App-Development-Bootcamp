@@ -1,20 +1,11 @@
-//
-//  CategoryViewController.swift
-//  Todoey
-//
-//  Created by Paulo Pinheiro on 12/10/23.
-//  Copyright © 2023 App Brewery. All rights reserved.
-//
+
 
 import UIKit
 import CoreData
 
 class CategoryViewController: UITableViewController {
     
-    
     var categoryArray = [Categori]()
-    
-  
     
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     
