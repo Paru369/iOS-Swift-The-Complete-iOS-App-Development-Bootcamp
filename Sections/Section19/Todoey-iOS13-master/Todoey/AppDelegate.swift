@@ -24,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.saveContext()
     }
     
-    // MARK: - Core Data 
+    // MARK: - Core Data Stack
     
     lazy var persistentContainer: NSPersistentContainer = {
           
